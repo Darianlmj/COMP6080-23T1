@@ -1,0 +1,37 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav-link-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link-container > li {
+  margin: 0 10px;
+}
+
+.nav-link-container > li > a {
+  text-decoration: none;
+  color: #000;
+}
+
+#cta-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#cta-button:hover {
+  background-color: #fff;
+  color: #000;
+}

@@ -1,0 +1,90 @@
+body {
+  background-color: #f2f1f6;
+  font-family: 'SF Pro Display', sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #e5e5ea;
+}
+
+.card {
+  width: 290px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px 10px 15px  10px;
+  margin: 10px 10px;
+}
+
+.flexy-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.smol-words {
+  font-size: 12px;
+  font-weight: bold;
+  color: #8e8e93;
+}
+
+.number {
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+
+.step-counter {
+  color: #8e8e93;
+}
+
+#arrow {
+  font-size: 20px;
+  color: #8e8e93;
+}
+
+.progress-bar {
+  background-color: #ff4900;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.gray {
+  background-color: #e5e5ea;
+  width: 90%;
+}
+
+.orange {
+  color: #ff4900;
+}
+
+.progress-bar > p {
+  color: white;
+  padding: 2px 10px;
+  font-size: 14px;
+}
+
+.gray > p {
+  color: black;
+}
+
+@media screen and (max-width: 760px) {
+  body {
+    flex-direction: column;
+  } 
+}
