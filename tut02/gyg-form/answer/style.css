@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+}
+
+nav.navMain {
+  font-family: "Sinibold", sans-serif;
+  background-color: #171717;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  background: #171717;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 0 8px;
+  height: 3em;
+  font-size: 19px;
+}
+
+ul.menuMain {
+  padding-left: 70px;
+  padding-right: 70px;
+  width: 100%;
+  float: left;
+}
+
+.row {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  right: 0;
+}
+
+a.btn {
+  padding: 10px 12px;
+  text-align: center;
+  border-radius: 10px;
+  min-width: 0;
+  font-size: 22px;
+  background: #ffd204;
+  color: #000;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.mobileMenu .icon span {
+  width: 100%;
+  height: 3px;
+  display: block;
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  background: #fff;
+  border-radius: 2px;
+  transform: rotate(0deg);
+  transition: all 0.2s ease-out 0s;
+}
+
+.mobileMenu .icon {
+  width: 18px;
+  height: 19px;
+  margin-top: -9px;
+  margin-left: -9px;
+  transform: rotate(0deg);
+  transition: all 0.2s ease-out 0s;
+}
+
+.mobileMenu .icon span:nth-child(1) {
+  top: 0;
+}
+.mobileMenu .icon span:nth-child(2) {
+  top: 7px;
+}
+.mobileMenu .icon span:nth-child(3) {
+  top: 14px;
+}
+
+.mobileMenu {
+  width: 32px;
+  height: 34px;
+  position: absolute;
+  z-index: 10;
+  left: 140px;
+  top: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #171717;
+  font-family: "Sinibold", sans-serif;
+  color: white;
+}
+
+.bounded-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.form-description {
+  padding: 0 5rem;
+}
+
+.input-box {
+  border: solid 2px #ffd204;
+  background: none;
+  color: #fff;
+  width: 250px;
+  font-size: 15px;
+  padding: 8px;
+}
+
+.input-box:focus {
+  outline: none;
+}
+
+form {
+  position: relative;
+}
+
+input[type="submit"] {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  border: none;
+  background: url(https://www.guzmanygomez.com.au/wp-content/themes/gyg/assets/img/icon-arrow-right-yellow.svg);
+  overflow: hidden;
+  line-height: 100px;
+  transform: translate(-50%, -50%);
+}
+
+.textarea {
+  width: 100%;
+  height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1160px) {
+  .mobileMenu {
+    display: block;
+  }
+
+  .menuWrapper {
+    display: none;
+  }
+
+  .row {
+    justify-content: space-between;
+  }
+}
