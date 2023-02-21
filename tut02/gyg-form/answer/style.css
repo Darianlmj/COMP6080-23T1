@@ -163,6 +163,7 @@ input[type="submit"] {
   top: 50%;
   right: 0;
   border: none;
+  /* Not recommended to set background like this in 6080!. Do it via img */
   background: url(https://www.guzmanygomez.com.au/wp-content/themes/gyg/assets/img/icon-arrow-right-yellow.svg);
   overflow: hidden;
   line-height: 100px;
