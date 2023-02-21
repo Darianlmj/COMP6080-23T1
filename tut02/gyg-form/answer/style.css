@@ -190,4 +190,12 @@ input[type="submit"] {
   .row {
     justify-content: space-between;
   }
+  .bounded-container {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .form-description {
+    padding: 0;
+  }
 }
