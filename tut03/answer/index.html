@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="./styles.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+</head>
+<body>
+  <form class="page-form">
+    <label for="username">Username</label>
+    <input
+      type="text"
+      id="username"
+      placeholder="Please enter a valid username"
+    />
+    <button type="submit">Login</button>
+  </form>
+  <button id="logout-button">Logout</button>
+
+  <form class="page-form" id="to-do-form">
+    <div id="form-header">
+      <label for="to-do">Sh*t I need to get done this weekend</label>
+      <input
+        type="text"
+        id="to-do"
+        placeholder="Surely something COMP6080 related right..."
+      />
+      <button type="submit">Add</button>
+    </div>
+  </form>
+  <script src="./index.js"></script>
+</body>
+
+<style>
+  #logout-button,
+  #to-do-form {
+    display: none;
+  }
+</style>
