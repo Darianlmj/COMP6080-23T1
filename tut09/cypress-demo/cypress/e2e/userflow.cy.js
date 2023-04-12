@@ -1,12 +1,12 @@
 describe("user happy path", () => {
   it("should navigate to the home screen successfully", () => {
-    cy.visit("localhost:3002/");
-    cy.url().should("include", "localhost:3002");
+    cy.visit("localhost:3001/");
+    cy.url().should("include", "localhost:3001");
   });
 
   it("should navigate to the login screen successfully", () => {
     cy.get('button[name="login-button"]').click();
-    cy.url().should("include", "localhost:3002/login");
+    cy.url().should("include", "localhost:3001/login");
   });
 
   it("should login successfully", () => {
@@ -16,7 +16,7 @@ describe("user happy path", () => {
       .type("random password");
 
     cy.get('button[name="submit"]').click();
-    cy.url().should("include", "localhost:3002/dashboard");
+    cy.url().should("include", "localhost:3001/dashboard");
   });
 
   it("should upload a file successfuly", () => {
@@ -28,6 +28,6 @@ describe("user happy path", () => {
 
   it("log out successfully", () => {
     cy.get('button[name="logout-button"]').click();
-    cy.url().should("include", "localhost:3002/");
+    cy.url().should("include", "localhost:3001/");
   });
 });
