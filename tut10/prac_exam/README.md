@@ -24,7 +24,7 @@ You are to build a landing page and a game page
 
 ### 1.3 Game Page
 
-* This page exists on route `/make_24` and contains the sidebar and footer from `1.2`. (0.5)
+* This page exists on route `/make_24` and contains the sidebar from `1.2`. (0.5)
 * This main page consists of a primary box that is:
   * `100px` in height (0.5)
   * `100%` in width (0.5)
