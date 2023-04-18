@@ -16,7 +16,7 @@ You are to build a landing page and a game page
   * Has a background colour of `#eee`. (0.5)
   * Contains a logo (any random image from the internet) that:
   	* At the top of the sidebar, centre aligned. (0.5)
-  * Contains 4 lines of text that are links: (1)
+  * Contains 2 lines of text that are links: (1)
     * Home (linking to `/home`)
     * 24 (linking to `/make_24`)
 * The content in the landing page (i.e. everything excluding the sidebar should be positioned in the middle of the page.)
